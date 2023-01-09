@@ -11,7 +11,7 @@
  .col-10 {width: 83.33%;}
  .col-11 {width: 92.66%;}
  .col-12 {width: 100%;}
-
+/* navbar start here */
  .nav-log{
     text-align: left;
  }
@@ -28,3 +28,33 @@
     margin: 20px 0;
     background-color: transparent;
  }
+/* navbar start here */
+
+/* profile starts here */
+.profile .top-weather-icon{
+    right: 100px;
+    width: 120px;
+    top: 20px;
+    transition: width 2s, transform 2s;
+}
+.profile .top-weather-icon:hover{
+    width: 140px;
+     
+}
+.profile .button-weather-icon{
+    left: 100px;
+    width: 120px;
+    bottom: 20px;
+    transition: width 2s,transform 2s;
+}
+.profile .button-weather-icon:hover{
+    width: 140px;
+     
+}
+.profile-desc p{
+    color: gray;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+/* profile ends here */
