@@ -102,3 +102,16 @@
  }
 
  /* profile ends here */
+ /* About me start here */
+
+ 
+.aboutme-image img{
+    width:400px ;
+    height: 450px;
+}
+
+.aboutme-desc{
+    text-align: left;
+}
+
+ /* About me ends here */
