@@ -178,3 +178,47 @@
    
 }
  /* about me desing ends here */
+
+ /* professional-exprience start herer */
+ .professional-exprience{
+   padding: 1% 0%;
+ }
+ .professional-exprience .card{
+   background-color: rgb(83, 76, 155);
+   border-radius: 5px;
+   padding: 10px;
+   transition:  0.3s;
+   height: 700px;
+ }
+ .professional-exprience .card:hover{
+   box-shadow: 0px 4px 8px 5px black;
+ }
+ .professional-exprience .card .card-icon img{
+   width: 100px;
+   border-radius: 50%;
+   color: wheat;
+   margin-top: 20px;
+
+   background-color: rgb(167, 104, 104);
+ }
+ .professional-exprience::after{
+   display: table;
+   content: '';
+   clear: both;
+ }
+ .card-icon{
+   text-align: center;
+ }
+ .rounded-img{
+   border: 5px solid wheat;
+   border-radius: 50%;
+   padding: 15px;
+ }
+ .card-title h2{
+   background-color: rgb(162, 161, 159);
+   color: rgb(23, 22, 19);
+   padding: 10px;
+   text-align: center;
+ }
+  
+ /* professional-exprience ends herer */
